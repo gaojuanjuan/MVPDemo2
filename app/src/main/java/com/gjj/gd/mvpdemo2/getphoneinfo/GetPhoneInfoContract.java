@@ -2,6 +2,7 @@ package com.gjj.gd.mvpdemo2.getphoneinfo;
 
 import com.gjj.gd.mvpdemo2.base.BasePresenter;
 import com.gjj.gd.mvpdemo2.base.BaseView;
+import com.gjj.gd.mvpdemo2.data.PhoneInfo;
 
 /**
  * author: GD on 2016/10/25 22:32
@@ -14,7 +15,7 @@ import com.gjj.gd.mvpdemo2.base.BaseView;
 
     public interface GetPhoneInfoContract {
     interface View extends BaseView<Presenter>{
-        void setTime(String name);
+        void setTime(String time);
         void showLoading();
         void hideLoading();
     }

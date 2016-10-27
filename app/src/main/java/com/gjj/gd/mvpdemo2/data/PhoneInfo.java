@@ -10,7 +10,7 @@ package com.gjj.gd.mvpdemo2.data;
  */
 public class PhoneInfo {
     private String time;
-    private int mobileType;
+    private String mobileType;
     private String mobileVer;
 
     public String getTime() {
@@ -21,11 +21,11 @@ public class PhoneInfo {
         this.time = time;
     }
 
-    public int getMobileType() {
+    public String getMobileType() {
         return mobileType;
     }
 
-    public void setMobileType(int mobileType) {
+    public void setMobileType(String mobileType) {
         this.mobileType = mobileType;
     }
 

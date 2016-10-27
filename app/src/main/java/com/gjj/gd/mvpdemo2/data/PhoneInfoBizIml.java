@@ -17,7 +17,7 @@ public class PhoneInfoBizIml implements PhoneInfoBiz{
                 try {
                     PhoneInfo phoneInfo = new PhoneInfo();
                     phoneInfo.setTime(System.currentTimeMillis()+"");
-                    phoneInfo.setTime(Build.MODEL);
+                    phoneInfo.setMobileType(Build.MODEL);
                     phoneInfo.setMobileVer(Build.VERSION.RELEASE);
                     Thread.sleep(1000);
                     getPhoneInfoCallback.onGetPhoneInfo(phoneInfo);
